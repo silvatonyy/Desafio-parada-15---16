@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGN</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    padding: 30px 50px 30px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 200px;
+}
+
+nav ol{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ol li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn-enter{
+    background-color: #bf1212;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn-enter a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.submenu{
+    display: grid;
+    height: 70px;
+    background-color: #f5f5f5;
+}
+
+.submenu ol{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.submenu ol a{
+    text-decoration: none;
+}
+
+section{
+    padding: 80px;
+}
+
+section div{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+.img {
+    display: flex;
+    justify-content: space-evenly;
+}
+</style>
+</head>
+<body>
+    <nav>
+        <img src="img/ign.png" alt="">
+        <ol>
+            <li><a href="">Xbox</a></li>
+            <li><a href="">PS5</a></li>
+            <li><a href="">Switch</a></li>
+            <li><a href="">Veja Mais</a></li>
+        </ol>
+        <div class="search">
+             <div class="btn-enter">
+                <a href="#">ENTRAR</a> 
+            </div>
+        </div>
+    </nav> 
+    <div class="submenu">
+        <ol>
+            <li><a href="">GAMES</a></li>
+            <span>|</span>
+            <li><a href="">GAMES</a></li>
+            <span>|</span>
+            <li><a href="">GAMES</a></li>
+            <span>|</span>
+            <li><a href="">GAMES</a></li>
+        </ol>
+    </div>
+    <section>
+        <div class="img">
+            <img src="img/fifa.jpg" width="420" height="320">
+            <img src="img/jurrasic.webp" width="420" height="320">
+            <img src="img/ps4.webp" width="420" height="320">
+            <img src="img/topgun.png" width="420" height="320">
+        </div>
+    </section>
+</body>
+</html>
+            
